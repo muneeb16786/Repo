@@ -26,7 +26,7 @@ function HealthCheck() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h2>Backend Health Check</h2>
+      <h2>🔌 Backend Connection</h2>
       {health && (
         <div style={{ color: 'green' }}>
           <p>Status: {health.status}</p>
